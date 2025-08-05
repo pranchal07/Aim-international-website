@@ -1,8 +1,8 @@
 // AIM International Backend Files
 
 
-## 1. server.js
-```javascript
+// 1. server.js
+javascript
 const express = require('express');
 const nodemailer = require('nodemailer');
 const cors = require('cors');
@@ -625,7 +625,7 @@ app.listen(PORT, () => {
 module.exports = app;
 ```
 
-## 2. package.json
+ 2. package.json
 ```json
 {
   "name": "aim-international-backend",
